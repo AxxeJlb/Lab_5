@@ -73,7 +73,7 @@ int main()
 
     Shader shader("vertex_sheder.glsl", "fragment_shader.glsl");
 
-    Model model("F:\\Programming\\Projekts\\Lab_5\\Lab_3_Tigrov.obj");
+    Model model("Lab_3_Tigrov.obj");
 
     while (!glfwWindowShouldClose(window)) {
         processInput(window);
