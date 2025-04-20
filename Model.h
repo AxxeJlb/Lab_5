@@ -43,7 +43,6 @@ public:
 private:
     void loadModel(string const& path)
     {
-        directory = path.substr(0, path.find_last_of("/\\"));
         Assimp::Importer importer;
         const aiScene* scene = importer.ReadFile(path,
             aiProcess_CalcTangentSpace |
